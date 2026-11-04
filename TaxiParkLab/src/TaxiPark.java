@@ -23,7 +23,7 @@ public class TaxiPark {
     }
 
     public void sortByFuelConsumption() {
-        // Метод Collections.sort использует наш compareTo из класса Car.
+        // метод Collections.sort использует наш compareTo из класса Car.
         Collections.sort(cars);
         logger.info("--- Автомобили отсортированы по расходу топлива (от меньшего к большему) ---");
         for (Car car : cars) {
